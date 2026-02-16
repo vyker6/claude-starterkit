@@ -11,7 +11,12 @@
         "name": "Vyker"
       },
       "source": "./plugins/vyker-claude-starterkit",
-      "category": "development"
+      "category": "development",
+      "strict": false,
+      "commands": "./plugins/vyker-claude-starterkit/commands",
+      "skills": "./plugins/vyker-claude-starterkit/skills",
+      "agents": "./plugins/vyker-claude-starterkit/agents",
+      "hooks": "./plugins/vyker-claude-starterkit/hooks/hooks.json"
     }
   ]
 }
