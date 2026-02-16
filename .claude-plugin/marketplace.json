@@ -1,0 +1,17 @@
+{
+  "name": "claude-starterkit",
+  "owner": {
+    "name": "Vyker"
+  },
+  "plugins": [
+    {
+      "name": "vyker-claude-starterkit",
+      "description": "24 skills, 11 commands, 7 hooks for team development — TDD, security, governance, code review, deploy pipeline, and more",
+      "author": {
+        "name": "Vyker"
+      },
+      "source": "./plugins/vyker-claude-starterkit",
+      "category": "development"
+    }
+  ]
+}
