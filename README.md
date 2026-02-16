@@ -55,6 +55,7 @@ All-in-one Claude Code plugin that bundles essential skills, commands, hooks, an
 | /decide | Record an architecture decision (ADR) |
 | /pr-prep | Generate a review-ready PR description |
 | /onboard | Generate project orientation for new team members |
+| /summary | Show a summary of all skills, commands, and hooks |
 
 ### Governance Hooks (automatic)
 
@@ -83,7 +84,7 @@ Plugin source lives in `plugins/claude-starterkit/`. Edit skills, commands, and 
 plugins/claude-starterkit/
 ├── .claude-plugin/plugin.json
 ├── skills/           # 24 skill directories with SKILL.md
-├── commands/         # 11 command .md files
+├── commands/         # 12 command .md files
 ├── hooks/            # 7 hook scripts + hooks.json
 ├── agents/           # Code reviewer agent
 ├── lib/              # Shared utilities
